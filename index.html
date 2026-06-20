@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Drag Race Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home" class="page active">
+  <h1>💄 Drag Race Simulator</h1>
+  <p>Select a season</p>
+  <div id="seasonContainer"></div>
+</div>
+
+<div id="cast" class="page">
+  <h1>Select Your Cast</h1>
+  <div id="castContainer"></div>
+  <button onclick="startSeason()">Start Season</button>
+</div>
+
+<div id="episode" class="page">
+  <h1 id="episodeTitle">Episode</h1>
+  <p id="challengeText"></p>
+
+  <div id="results"></div>
+
+  <button onclick="nextEpisode()">Next Episode</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
