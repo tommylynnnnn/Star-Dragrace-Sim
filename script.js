@@ -13,6 +13,7 @@ const queens = [
 },
 {
   Name: "Tammie Brown",
+  Image: "assets/tammie.jpg",
   Acting: 3,
   Comedy: 1,
   Dance: 1,
