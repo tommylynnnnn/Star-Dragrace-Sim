@@ -2,6 +2,7 @@ const queens = [
 
 {
   Name: "Victoria 'Porkchop' Parker",
+  Image: "assets/porkchop.jpg",
   Acting: 0,
   Comedy: 0,
   Dance: 0,
