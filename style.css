@@ -1,8 +1,8 @@
 /* Base styles and fonts */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #121214;
-  color: #f5f5f7;
+  background-color: #f516b9;
+  color: #ed66c9;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(135deg, #ff007f, #7928ca);
+  background: linear-gradient(135deg, #f516b9, #ed66c9);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -44,8 +44,8 @@ header h1 {
 
 /* Individual Queen Card Styling */
 .queen-card {
-  background-color: #1e1e24;
-  border: 2px solid #2d2d35;
+  background-color: #ed66c9;
+  border: 2px solid #d44cb0;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
