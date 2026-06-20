@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag Race Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <h1>👑 DRAG RACE SIMULATOR 👑</h1>
+    <p>Select your cast to begin the competition!</p>
+  </header>
+
+  <main class="sim-container">
+    
+    <section class="pool-section">
+      <h2>Available Queens</h2>
+      <div id="queens-pool" class="queens-grid">
+        </div>
+    </section>
+
+    <aside class="cast-section">
+      <h2>Your Cast (<span id="cast-count">0</span>)</h2>
+      <ul id="selected-cast-list">
+        </ul>
+      <button id="start-sim-btn" disabled>Start Simulation 🎬</button>
+    </aside>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
